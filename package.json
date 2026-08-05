@@ -1,20 +1,21 @@
 {
-  "name": "nodejs",
-  "version": "1,0,0",
-  "description": "Thsi is a node project",
+  "name": "nodejs-argo",
+  "version": "1.0.0",
+  "description": "nodejs-argo",
   "main": "index.js",
-  "author": "",
+  "author": "eooce",
   "repository": "",
   "license": "MIT",
   "private": false,
   "scripts": {
-    "dev": "node index.js",
     "start": "node index.js"
   },
   "dependencies": {
-    "axios": "latest"
+    "axios": "latest",
+    "dotenv": "latest",
+    "koffi": "latest"
   },
   "engines": {
-    "node": ">=14"
+    "node": ">=16"
   }
 }
